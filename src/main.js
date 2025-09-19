@@ -1,7 +1,9 @@
 import './style.css'
 
-document.querySelector('#app').innerHTML = `
+export function homepage() {
+  document.querySelector('#app').innerHTML = `
   <div>
-
+    <h1>Homepage</h1>
   </div>
 `
+}
