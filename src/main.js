@@ -1,4 +1,5 @@
 import './style.css'
+import { router } from './router'
 
 export function homepage() {
   document.querySelector('#app').innerHTML = `
