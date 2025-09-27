@@ -1,5 +1,19 @@
 
 
-$ npm install - to import the node modules
+
+### Need to install to run this!
+
+- Import Node Modules 
+    ``` 
+        npm install
+        
+    ```
+
+Routing - Using Navigo
+
+    ```
+    npm install navigo --save
+
+    ```
 
 
