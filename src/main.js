@@ -12,7 +12,7 @@ export function homepage() {
       <main>
         <h1>Converter</h1>
         <div>
-          <input type="text" name="myInput" placeholder="Enter a number" size="30" required>  
+          <input type="text" name="Number" placeholder="Enter a number" size="30" required id="inptNumber" class="">  
         </div>
 
         <div>
