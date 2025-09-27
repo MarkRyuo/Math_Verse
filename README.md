@@ -5,14 +5,15 @@
 
 - Import Node Modules 
     ``` 
+        
         npm install
         
     ```
 
-Routing - Using Navigo
-
+- Routing - Using Navigo
     ```
-    npm install navigo --save
+        
+        npm install navigo --save
 
     ```
 
