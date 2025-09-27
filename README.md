@@ -9,7 +9,7 @@
         
     ```
 
-Routing - Using Navigo
+- Routing - Using Navigo
     ```
         
         npm install navigo --save
