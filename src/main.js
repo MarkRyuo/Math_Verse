@@ -1,5 +1,6 @@
 import './style.css'
-import { router } from './router'
+import { router } from './router.js'
+import { converterHandler } from './functions/converter.js'
 
 export function homepage() {
   document.querySelector('#app').innerHTML = `
@@ -27,4 +28,8 @@ export function homepage() {
     </div>
   </div>
 `
+
+const btnAds = document.getElementById("btnAbs").addEventListener("click", () => {
+  converterHandler("Absolute")
+})
 }

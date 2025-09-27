@@ -1,20 +1,15 @@
 
 
 
-const getTheInput = (value) => {
+const getTheInput = () => {
     // get the input 
     const inptNumber = document.getElementById("inptNumber");
-    const isNumber = inptNumber.value = value;
+    const isNumber = inptNumber.value.trim();
     
     // Check if the input has a number
     if(!isNumber) {
         alert("Enter a Number")
-    }
-
-    //check if the input is string
-    if(typeof isNumber === "string"){
-        alert(`${isNumber} is not a number`)
-        isNumber = "" ;
+        return null;
     }
 
     return isNumber ;
@@ -23,9 +18,17 @@ const getTheInput = (value) => {
 
 // main function
 
-export function converterHandler(params) {
+export function converterHandler(action) {
     
-    const btnAbs = document.getElementById("btnAbs").
+    const number = getTheInput()
 
+    let result ; 
+
+    if(action === "Absolute") {
+        result = Math.abs(number); // abs for converting negative number to positive number
+    }
+
+
+    alert(`${action} of ${number} = ${result}`)
     
 }
