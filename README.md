@@ -12,7 +12,7 @@
 Routing - Using Navigo
 
     ```
-    npm install navigo --save
+        npm install navigo --save
 
     ```
 
