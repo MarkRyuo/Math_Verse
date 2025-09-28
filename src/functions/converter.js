@@ -1,5 +1,11 @@
 
-let operations = document.getElementById("operations");
+
+export const opeHandler = () => {
+    const operations = document.getElementById("operations") ;
+
+    
+
+}
 
 const getTheInput = () => {
     // get the input 

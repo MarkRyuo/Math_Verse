@@ -1,6 +1,6 @@
 import './style.css'
 import { router } from './router.js'
-import { converterHandler } from './functions/converter.js'
+import { converterHandler, opeHandler } from './functions/converter.js'
 
 export function homepage() {
   document.querySelector('#app').innerHTML = `
@@ -26,7 +26,7 @@ export function homepage() {
           <button type="button" name="abstract" id="btnRound" class="">Round</button>
           <button type="button" name="abstract" id="btnTrunc" class="">Truncate</button>
           <button type="button" name="abstract" id="btnSign" class="">Sign</button>
-          <button type="button" name="operations" id="${onclick(*)}" class"">x</button>
+          <button type="button" name="operations" id="${onclick(opeHandler())}" class"">x</button>
           <button type="button" name="operations" id="operations" class"">/</button>
         </div>
       </main>
