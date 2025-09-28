@@ -29,6 +29,7 @@ export function homepage() {
           <button type="button" name="operations" id="operations" class"">x</button>
           <button type="button" name="devide" id="devide" class"">/</button>
           <button type="button" name="devide" id="devide" class"">Kupal</button>
+          <button type="button" name="devide" id="devide" class"">tite</button>
         </div>
       </main>
     </div>
