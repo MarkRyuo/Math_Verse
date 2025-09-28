@@ -30,6 +30,11 @@ export function homepage() {
           <button type="button" name="devide" id="devide" class"">/</button>
           <button type="button" name="devide" id="devide" class"">Kupal</button>
           <button type="button" name="devide" id="devide" class"">tite</button>
+          <button type="button" name="devide" id="devide" class"">kopals</button>
+          <button type="button" name="devide" id="devide" class"">HEllo World</button>
+          <div>
+          
+          </div>
         </div>
       </main>
     </div>
