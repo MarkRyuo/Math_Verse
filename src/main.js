@@ -13,10 +13,10 @@ export function homepage() {
       <main>
         <h1>Converter</h1>
         <div>
-          <input type="text" name="Number1" placeholder="Enter a number 1" size="30" required id="inptNumber" class="">  
+          <input type="text" name="Number1" placeholder="Enter a number 1" size="30" required id="inptNumber1" class="">  
         </div>
         <div>
-          <input type="text" name="Number2" placeholder="Enter a number 2" size="30" required id="inptNumber" class="">  
+          <input type="text" name="Number2" placeholder="Enter a number 2" size="30" required id="inptNumber2" class="">  
         </div>
         
         <div>
@@ -26,8 +26,8 @@ export function homepage() {
           <button type="button" name="abstract" id="btnRound" class="">Round</button>
           <button type="button" name="abstract" id="btnTrunc" class="">Truncate</button>
           <button type="button" name="abstract" id="btnSign" class="">Sign</button>
-          <button type="button" name="operations" id="${onclick(opeHandler())}" class"">x</button>
-          <button type="button" name="operations" id="operations" class"">/</button>
+          <button type="button" name="operations" id="operations" class"">x</button>
+          <button type="button" name="devide" id="devide" class"">/</button>
         </div>
       </main>
     </div>
@@ -49,5 +49,13 @@ const btnRound = document.getElementById("btnRound").addEventListener("click", (
 })
 const btnTrunc = document.getElementById("btnTrunc").addEventListener("click", () =>{
   converterHandler("Trunc")
+})
+
+const operations = document.getElementById("operations").addEventListener("click", () => {
+  opeHandler("*")
+})
+
+const devide = document.getElementById("devide").addEventListener("click", () => {
+  opeHandler("/")
 })
 }

@@ -1,9 +1,27 @@
 
+// * 
+export const opeHandler = (action) => {
+  
+    const Number1 = document.getElementById("inptNumber1") ;
+    const Number2 = document.getElementById("inptNumber2") ;
 
-export const opeHandler = () => {
-    const operations = document.getElementById("operations") ;
+    const number1 = Number1.value.trim();
+    const number2 = Number2.value.trim();
 
-    
+    let result ;
+
+    if(action === "*") {
+        result = number1 * number2 ;
+        alert(`${number1} * ${number2} = ${result}`)
+    }
+
+    if(action === "/") {
+        result = number1 / number2 ;
+        alert(`${number1} / ${number2} = ${result}`)
+    }
+
+    return result ;
+
 
 }
 
