@@ -28,21 +28,15 @@ export const opeHandler = (action) => {
 const getTheInput = () => {
     // get the input 
     const inptNumber1 = document.getElementById("inptNumber1");
-    const isNumber1 = inptNumber.value.trim();
+    const isNumber1 = inptNumber1.value.trim();
     const inptNumber2 = document.getElementById("inptNumber2");
-    const isNumber2 = inptNumber.value.trim();
+    const isNumber2 = inptNumber2.value.trim();
     
     // Check if the input has a number
     if(!isNumber1 && !isNumber2 ) {
         alert("Enter a Number")
         return null;
     }
-
-    if (operations = "*") {
-        fusion = isnumber1 * isNumber2;
-        return fusion;
-    } else if (operations = "/")
-
 
     return isNumber1, isNumber2 ;
 }

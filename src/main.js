@@ -12,29 +12,27 @@ export function homepage() {
 
       <main>
         <h1>Converter</h1>
-        <div>
-          <input type="text" name="Number1" placeholder="Enter a number 1" size="30" required id="inptNumber1" class="">  
-        </div>
-        <div>
-          <input type="text" name="Number2" placeholder="Enter a number 2" size="30" required id="inptNumber2" class="">  
+        <div class="inputNumbers">
+          <input type="number" name="Number1" placeholder="Enter a number 1" size="30" required id="inptNumber1" class="">  
+          <input type="number" name="Number2" placeholder="Enter a number 2" size="30" required id="inptNumber2" class="">  
         </div>
         
-        <div>
+        <div class="math-functions">
           <button type="button" name="abstract" id="btnAbs" class="">Absolute</button>
           <button type="button" name="abstract" id="btnCeil" class="">Ceiling</button>
           <button type="button" name="abstract" id="btnFloor" class="">Floor</button>
           <button type="button" name="abstract" id="btnRound" class="">Round</button>
           <button type="button" name="abstract" id="btnTrunc" class="">Truncate</button>
           <button type="button" name="abstract" id="btnSign" class="">Sign</button>
+        </div>
+        <div class="operationals">
           <button type="button" name="operations" id="operations" class"">x</button>
           <button type="button" name="devide" id="devide" class"">/</button>
-          <button type="button" name="devide" id="devide" class"">Kupal</button>
-          <button type="button" name="devide" id="devide" class"">tite</button>
-          <button type="button" name="devide" id="devide" class"">kopals</button>
-          <button type="button" name="devide" id="devide" class"">HEllo World</button>
-          <div>
-          
-          </div>
+          <button type="button" name="plus" id="plus" class"">+</button>
+          <button type="button" name="minus" id="plus" class"">-</button>
+        </div>
+        <div>
+        <p class="" id="Output">OUTPUT</p>
         </div>
       </main>
     </div>
@@ -65,4 +63,12 @@ const operations = document.getElementById("operations").addEventListener("click
 const devide = document.getElementById("devide").addEventListener("click", () => {
   opeHandler("/")
 })
+const plus = document.getElementById("plus").addEventListener("click", () => {
+  opeHandler("+")
+})
+
+const minus = document.getElementById("minus").addEventListener("click", () => {
+  opeHandler("-")
+})
+
 }
