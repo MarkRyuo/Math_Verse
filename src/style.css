@@ -1,0 +1,35 @@
+main {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+    border-style: groove;
+    padding-bottom: 20px;
+}
+
+.inputNumbers{
+    display: inline-block;
+    margin-bottom: 30px;
+    border-style: hidden;
+}
+
+button {
+    border-radius: 10px;
+    font-size: larger;
+}
+
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.math-functions{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.operationals{
+    display: block;
+}
